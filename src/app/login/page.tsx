@@ -98,7 +98,7 @@ export default function LoginPage() {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               onKeyDown={(e) => {
-                if (e.key === "Enter") mode === "magic" ? handleMagicLink() : undefined;
+                if (e.key === "Enter" && mode === "magic") handleMagicLink();
               }}
               placeholder="you@example.com"
               autoComplete="email"

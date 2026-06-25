@@ -27,7 +27,7 @@ function getGreeting() {
 }
 
 export default function AnchorPage() {
-  const { state, hydrated, todayRecoveryPoints, pendingSparks } = useStore();
+  const { hydrated, todayRecoveryPoints, pendingSparks } = useStore();
 
 
   if (!hydrated) {

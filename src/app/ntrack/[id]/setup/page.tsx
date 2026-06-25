@@ -114,7 +114,7 @@ export default function NTrackSetupPage() {
               外部验证标准
             </label>
             <p className="text-xs text-slate-400 mt-0.5 mb-2">
-              7 天后你怎么知道"它行得通"？每行一个可观察的标准。
+              7 天后你怎么知道&ldquo;它行得通&rdquo;？每行一个可观察的标准。
             </p>
             <textarea
               rows={3}
@@ -142,9 +142,9 @@ export default function NTrackSetupPage() {
       <div className="rounded-2xl border border-amber-100 bg-amber-50 p-4">
         <p className="text-sm font-medium text-amber-800">开始前，关闭以下问题</p>
         <ul className="mt-2 space-y-1.5 text-sm text-amber-700">
-          <li>· 不在验证阶段讨论"到底选哪个"</li>
+          <li>· 不在验证阶段讨论&ldquo;到底选哪个&rdquo;</li>
           <li>· 每天最少完成一条最小动作，不要跳过</li>
-          <li>· 体验结束后立即记录感受，不要等"想清楚"</li>
+          <li>· 体验结束后立即记录感受，不要等&ldquo;想清楚&rdquo;</li>
         </ul>
       </div>
 
